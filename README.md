@@ -47,14 +47,13 @@ Each guide on docs.poly.ai has a repo with its full example.
 | [Speech to text](https://docs.poly.ai/dialog-rsn-1/guides/speech-to-text) | [dialog-rsn-1-speech-to-text](https://github.com/PolyAI-LDN/dialog-rsn-1-speech-to-text) | Transcriber and support agent on the `openai` SDK, in Python and Node |
 | [Streaming to your TTS](https://docs.poly.ai/dialog-rsn-1/guides/streaming-text-to-speech) | [dialog-rsn-1-streaming-tts](https://github.com/PolyAI-LDN/dialog-rsn-1-streaming-tts) | Replies spoken through ElevenLabs as they stream, with barge-in |
 | [Browser voice agent with Cartesia](https://docs.poly.ai/dialog-rsn-1/guides/voice-agent-cartesia) | [dialog-rsn-1-voice-agent](https://github.com/PolyAI-LDN/dialog-rsn-1-voice-agent) | FastAPI voice agent with Cartesia speech and a browser page |
-| [LiveKit Agents](https://docs.poly.ai/dialog-rsn-1/guides/livekit) | [dialog-rsn-1-livekit](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit) | A hotel agent on `livekit-plugins-polyai`, PolyAI's LiveKit plugin |
+| [LiveKit Agents](https://docs.poly.ai/dialog-rsn-1/guides/livekit) | [dialog-rsn-1-livekit](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit) | A hotel agent on LiveKit Agents, with a scripted caller |
 | [Migrating from OpenAI Realtime](https://docs.poly.ai/dialog-rsn-1/guides/openai-realtime-migration) | [dialog-rsn-1-openai-migration](https://github.com/PolyAI-LDN/dialog-rsn-1-openai-migration) | The same agent on the `openai` SDK, before and after the switch |
 
-## Libraries and larger samples
+## Larger samples
 
 | Repo | What it is |
 | --- | --- |
-| [livekit-plugins-polyai](https://github.com/PolyAI-LDN/livekit-plugins-polyai) | Dialog-RSN-1 as a LiveKit Agents realtime model |
 | [dialog-rsn-1-realtime-agents](https://github.com/polyai/dialog-rsn-1-realtime-agents) | Multi-agent handoffs, a chat supervisor and a knowledge agent, in plain JavaScript |
 | [dialog-rsn-1-sagemaker](https://github.com/polyai/dialog-rsn-1-sagemaker) | Notebook and client bridge for the Dialog-RSN-1 model package on Amazon SageMaker |
 

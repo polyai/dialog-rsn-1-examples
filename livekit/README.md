@@ -3,11 +3,9 @@
 [`agent.py`](agent.py) is a LiveKit Agents voice agent on LiveKit's OpenAI Realtime model, pointed
 at Dialog-RSN-1. Only the connection changes.
 
-For a fuller agent built on PolyAI's own LiveKit plugin,
-[`livekit-plugins-polyai`](https://github.com/PolyAI-LDN/livekit-plugins-polyai), see the
+For a fuller agent, a hotel front desk with a scripted caller, see the
 [LiveKit Agents guide](https://docs.poly.ai/dialog-rsn-1/guides/livekit) and its
-[repo](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit). This folder is the shortest path if
-you already run LiveKit's OpenAI plugin.
+[repo](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit).
 
 ## Run it
 
@@ -77,8 +75,9 @@ On server-driven turn taking, in both modes:
 ## Limits
 
 - Poly extensions (`poly_knowledge`, `poly_response_language`, ...) can't be set through
-  LiveKit's session config. `livekit-plugins-polyai` sets the response language and can send any
-  raw event; the [reference](https://docs.poly.ai/dialog-rsn-1/reference) lists them all.
+  LiveKit's session config. Send them on a raw `session.update`, as the
+  [LiveKit guide](https://docs.poly.ai/dialog-rsn-1/guides/livekit#settings-that-matter) shows;
+  the [reference](https://docs.poly.ai/dialog-rsn-1/reference) lists them all.
 - `lk agent console` (CLI 2.18.8) shows each of your spoken turns twice: once from the final
   transcript and once when the message joins the conversation. That is the CLI; the conversation
   has each turn once. Its agent debug logs also print in among the conversation.
