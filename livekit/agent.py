@@ -3,6 +3,7 @@
 LiveKit's OpenAI Realtime agent, with only the connection changed from pointing it at OpenAI:
 `base_url`, the key and the model name. See README.md.
 
+    uv sync                             # once: install LiveKit Agents into .venv
     lk agent console                    # Dialog-RSN-1 speaks the reply
     DIALOG_TTS=client lk agent console  # Cartesia here speaks it
 
