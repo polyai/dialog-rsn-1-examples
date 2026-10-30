@@ -15,9 +15,14 @@ Dialog-RSN-1 API key from [studio.poly.ai](https://studio.poly.ai) (API Keys tab
 ```bash
 cd livekit
 cp .env.example .env                 # add POLY_API_KEY, and CARTESIA_API_KEY for client-side speech
+uv sync                              # install LiveKit Agents into .venv
 lk agent console                     # Dialog-RSN-1 speaks the reply
 DIALOG_TTS=client lk agent console   # Cartesia speaks it here
 ```
+
+`uv sync` installs the pinned packages from [`uv.lock`](uv.lock) into `.venv`. The CLI doesn't
+install them itself: without that step, `lk agent console` stops with "livekit-agents is not
+installed in the project environment".
 
 `lk agent console` runs `agent.py` from this directory's uv project and connects it to this
 machine's microphone and speaker, with no LiveKit server needed. `--text` starts in text mode
