@@ -44,11 +44,11 @@ Each guide on docs.poly.ai has a repo with its full example.
 | --- | --- | --- |
 | [Python from scratch](https://docs.poly.ai/dialog-rsn-1/guides/python-from-scratch) | [dialog-rsn-1-python-from-scratch](https://github.com/polyai/dialog-rsn-1-python-from-scratch) | Voice agent on plain `websockets`, with tool calling and a live microphone |
 | [Browser with JavaScript](https://docs.poly.ai/dialog-rsn-1/guides/javascript-browser) | [dialog-rsn-1-javascript-browser](https://github.com/polyai/dialog-rsn-1-javascript-browser) | Browser microphone through a small key-holding relay |
-| [Speech to text](https://docs.poly.ai/dialog-rsn-1/guides/speech-to-text) | [dialog-rsn-1-speech-to-text](https://github.com/PolyAI-LDN/dialog-rsn-1-speech-to-text) | Transcriber and support agent on the `openai` SDK, in Python and Node |
-| [Streaming to your TTS](https://docs.poly.ai/dialog-rsn-1/guides/streaming-text-to-speech) | [dialog-rsn-1-streaming-tts](https://github.com/PolyAI-LDN/dialog-rsn-1-streaming-tts) | Replies spoken through ElevenLabs as they stream, with barge-in |
-| [Browser voice agent with Cartesia](https://docs.poly.ai/dialog-rsn-1/guides/voice-agent-cartesia) | [dialog-rsn-1-voice-agent](https://github.com/PolyAI-LDN/dialog-rsn-1-voice-agent) | FastAPI voice agent with Cartesia speech and a browser page |
-| [LiveKit Agents](https://docs.poly.ai/dialog-rsn-1/guides/livekit) | [dialog-rsn-1-livekit](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit) | A hotel agent on LiveKit Agents, with a scripted caller |
-| [Migrating from OpenAI Realtime](https://docs.poly.ai/dialog-rsn-1/guides/openai-realtime-migration) | [dialog-rsn-1-openai-migration](https://github.com/PolyAI-LDN/dialog-rsn-1-openai-migration) | The same agent on the `openai` SDK, before and after the switch |
+| [Speech to text](https://docs.poly.ai/dialog-rsn-1/guides/speech-to-text) | [dialog-rsn-1-speech-to-text](https://github.com/polyai/dialog-rsn-1-speech-to-text) | Transcriber and support agent on the `openai` SDK, in Python and Node |
+| [Streaming to your TTS](https://docs.poly.ai/dialog-rsn-1/guides/streaming-text-to-speech) | [dialog-rsn-1-streaming-tts](https://github.com/polyai/dialog-rsn-1-streaming-tts) | Replies spoken through ElevenLabs as they stream, with barge-in |
+| [Browser voice agent with Cartesia](https://docs.poly.ai/dialog-rsn-1/guides/voice-agent-cartesia) | [dialog-rsn-1-voice-agent](https://github.com/polyai/dialog-rsn-1-voice-agent) | FastAPI voice agent with Cartesia speech and a browser page |
+| [LiveKit Agents](https://docs.poly.ai/dialog-rsn-1/guides/livekit) | [dialog-rsn-1-livekit](https://github.com/polyai/dialog-rsn-1-livekit) | A hotel agent on LiveKit Agents, with a scripted caller |
+| [Migrating from OpenAI Realtime](https://docs.poly.ai/dialog-rsn-1/guides/openai-realtime-migration) | [dialog-rsn-1-openai-migration](https://github.com/polyai/dialog-rsn-1-openai-migration) | The same agent on the `openai` SDK, before and after the switch |
 
 ## Larger samples
 

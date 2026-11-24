@@ -5,7 +5,7 @@ at Dialog-RSN-1. Only the connection changes.
 
 For a fuller agent, a hotel front desk with a scripted caller, see the
 [LiveKit Agents guide](https://docs.poly.ai/dialog-rsn-1/guides/livekit) and its
-[repo](https://github.com/PolyAI-LDN/dialog-rsn-1-livekit).
+[repo](https://github.com/polyai/dialog-rsn-1-livekit).
 
 ## Run it
 
